@@ -1,0 +1,59 @@
+.newblock_wrapper {
+    background: #FCF8F3;
+}
+
+.newblock_container {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 14em;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3em;
+    
+}
+
+.newblock_books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2em;
+    
+}
+.newblock_text {
+    text-align: center;
+    
+}
+
+
+.newblock_title {
+    font-size: 2rem; 
+    font-weight: 700;  
+    color: #3A3A3A;
+    
+}
+
+
+.newblock_button {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background-color: #E89F71;
+    color: white;
+    padding: 1em 3em;
+    border-radius: 15px;
+    margin-top: 1em;
+    transition: 0.2s;
+}
+
+.newblock_subtitle {
+    font-size: 1rem;
+    color: #616161;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+.newblock_button:hover {
+    box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+    background-color: rgb(236, 123, 53);
+    color: white;
+}

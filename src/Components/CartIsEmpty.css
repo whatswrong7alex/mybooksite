@@ -1,0 +1,49 @@
+.cartisempty_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+}
+
+
+.cartisempty_title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.cartisempty_description {
+    font-size: 1rem;
+    text-align: center;
+    color: #000000;
+    opacity: 0.4;
+    margin-top: 1em;
+}
+
+.cartisempty_button {
+    cursor: pointer;
+    background-color: #E89F71;
+    color: white;
+    padding: 1em 3em;
+    border-radius: 15px;
+    margin-top: 1em;
+    transition: 0.2s;
+}
+
+.cartisempty_button:hover {
+    box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+    background-color: rgb(236, 123, 53);
+    color: white;
+}
+
+.cartisempty_arrow {
+    display: inline-block;
+    margin-right: 0.5em;
+    
+}
+
+.cartisempty_subtext {
+    display: inline-block;
+    margin-left: 0.5em;
+}

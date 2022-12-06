@@ -1,0 +1,27 @@
+.tip_container {
+    display: inline-block;
+    background-color: white;
+    transition: 0.2s;
+    border-radius: 15px;
+}
+
+.tip_container:hover {
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    scale: 1.05;
+}
+
+.tip_img {
+    border-radius: 15px;
+    width: 25em;
+    height: 20em;
+}
+
+.tip_text {
+    font-size: 1.2em;
+    word-wrap: break-word;
+    font-weight: 700;
+    text-align: center;
+    padding: 1.2em 0em;
+    border: none;
+}
+

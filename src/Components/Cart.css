@@ -1,0 +1,115 @@
+
+.cart_container{
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    
+}
+
+.cart_sideblock{
+    position: absolute;
+    overflow-y: auto;
+    height: 100%;
+    width: 40%;
+    background: #FFFFFF;
+    box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+    right: 0;
+    top: 0;
+    padding: 2em;
+}
+
+.cart_notempty {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart_lowerBlock {
+    margin-top: 2rem;
+}
+
+.cart_sumBlock {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 0.5em;
+}
+
+.cart_sumText {
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.cart_sumNum {
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: 700;
+    
+}
+
+.cart_delivery {
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+
+.redAction {
+    color: crimson;
+}
+
+
+.cart_sumButton {
+    text-align: center;
+    cursor: pointer;
+    background-color: #E89F71;
+    color: white;
+    padding: 1em 3em;
+    border-radius: 15px;
+    margin-top: 1em;
+    transition: 0.2s;
+    margin-bottom: 4em;
+}
+
+.cart_sumButton:hover {
+    box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+    background-color: rgb(236, 123, 53);
+    color: white;
+}
+
+.cart_block{
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cart_button{
+    display: inline-block;
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.cart_button:hover {
+    background: #F2F2F2;
+}
+
+.cart_title{
+    display: inline-block;
+    margin: 0;
+}
+
+.cart_items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    gap: 1em;
+}

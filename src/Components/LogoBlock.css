@@ -1,0 +1,7 @@
+.logoBlock_wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3em 14em;
+    flex-wrap: wrap;
+    gap: 2em;
+}
